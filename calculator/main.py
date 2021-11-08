@@ -20,7 +20,7 @@ class Calculator:
         self.result = value_a * value_b
         return self.result
 
-    def division_number(self, div_1, div_2):
+    def division_number(self, value_a, value_b):
         """ Divide two numbers and store the result"""
-        self.result = div_1 / div_2
+        self.result = value_a / value_b
         return self.result
